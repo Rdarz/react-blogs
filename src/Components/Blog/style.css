@@ -1,0 +1,99 @@
+.header {
+  background-color: #181716;
+  overflow: auto;
+  height: auto;
+  padding: 0 20px;
+  color: white;
+  text-align: left;
+}
+.header h1{
+  margin: 15px;
+}
+
+.list-header{
+  border-bottom: 1px solid #737373;
+  color: #737373;
+  font: 600 22px Work Sans,sans-serif;
+  letter-spacing: .5px;
+  margin-bottom: 22px;
+  padding-bottom: 16px;
+  width: 100%;
+}
+.list-container{
+  margin: 40px 0
+}
+.list-blog{
+  background-color: #FFF !important;
+  padding: 20px 0 !important;
+  border-bottom: 1px solid #e2e2e2;
+  border-radius: 0 !important 
+}
+.list-blog h6{
+  color: #737373;
+  display: inline;
+  font: 400 10px/1.4 Work Sans,sans-serif;
+  letter-spacing: -.1px;
+}
+.list-blog h5{
+  display: block;
+  font: 600 18px/1.56 Merriweather,serif;
+  margin: 10px 0 15px;
+  text-decoration: none;
+}
+.list-blog p{
+  font: 400 16px/1.67 tabular-numbers,Georgia;
+}
+.list-blog .author{
+  color: #333;
+  font-size: 14px;
+}
+.list-blog .author b{
+  font-size: 12px
+}
+.load-more{
+  color: #333;
+  text-align: center;
+  font-size: 16;
+  cursor: pointer
+}
+
+.select{
+  background: #FFF;
+  border: 0;
+  color: #222; 
+  width: 100%;
+}
+.select-box{
+  display: inline-block;
+  margin: 10px 30px;
+  width: 450px;
+}
+.react-dropdown-select-content, .react-dropdown-select-input{
+  height: 20px !important;
+}
+.content-slide{
+  background: #F4F4F4;
+  height: 500px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.content-slide h1{
+  vertical-align: middle;
+  text-align: center;
+}
+.finish-btn{
+  width: 15%;
+  font-size: 16px;
+  margin: 20px;
+  border: 0;
+  border-radius: 5px;
+}
+.footer{
+  text-align: center;
+}
+
+.modal-body{
+  text-align: center;
+  height: 300px;
+  overflow: auto;
+}
